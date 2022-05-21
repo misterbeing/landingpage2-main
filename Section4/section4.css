@@ -1,0 +1,57 @@
+#section4{
+    height: 362.79px;
+    width: 1440px;
+    background:transparent url('./Group\ 14661.svg') 0% 0% no-repeat padding-box; 
+    opacity: 1;
+}
+
+#section4>div{
+    padding-top: 109.98px;
+    margin: auto;
+    width: 640px;
+    align-items: center;
+    text-align: center;
+} 
+
+#section4>div>h1{
+    margin-top: 0%;
+    font-family: Open Sans;
+    text-align: center;
+    font: normal normal 600 37px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight:500;
+}
+
+#section4>div>h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#section4>div>button{
+    position: relative;
+    top:1em;
+    font: normal normal medium ;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    border-style: none;
+    width: 279px;
+    height: 57px;
+    padding-bottom: 10px;
+}
+
+#section4>div>button>img{
+    width: 31px;
+    height: 31px;
+    position: relative;
+    top: 8px;
+}
