@@ -1,0 +1,82 @@
+#section7{
+    height: 967px;
+    background-color: #F3F6F9;
+    width: 1440px;
+}
+
+#section7>div{
+    width: 560px;
+    height: 112px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 96px;
+
+}
+
+#section7>div>h1{
+    font-family: Open Sans;
+    font-size: 41px;
+    font-weight: 600;
+}
+
+#section7 .container{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    position: relative;
+    top: 9em;
+    width: 1250px;
+    height: 578px ;
+}
+
+#section7 .container>div{
+    background-color: white;
+    width:397px ;
+    border-radius: 20px;
+    
+    padding-top: 34px;
+    
+    
+}
+
+#section7 .container img{
+    padding-left: 30px;
+}
+
+#section7 .container h1{
+    width: 350px;
+    height: 117px;
+    font-size: 20px;
+    font-family: open Sans;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+
+#section7 .container  h2{
+    width: 330px;
+    height: 150px;
+    font-size: 15px;
+    font-family: Open Sans;
+    font-weight: 500;
+    padding-left: 40px;
+    line-height: 28px;
+    position: relative;
+  
+}
+
+#section7 .container h3{
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 500;
+}
+#section7 .container h4{
+    padding-left: 40px;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 400;
+}
+

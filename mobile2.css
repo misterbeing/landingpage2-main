@@ -1,0 +1,82 @@
+#section1 .toggler{
+    display: block;
+    position:fixed;
+    top: 10px;
+    left:280px;
+    z-index: 2;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+}
+
+#section1 .menu-wrap .hamburger{
+    position: fixed;
+    top: 10px;
+    left: 280px;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    padding: 1rem ;
+    background-color: #26DFAD;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#section3 .container-1>div {
+    margin-left: 0;
+    padding-left: 0%;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    top: 0;
+    width: 350px;
+    height: 700px;
+}
+
+#section3 .container-1>div h2{
+    font-size: smaller;
+    width: 300px;
+}
+
+#section6 .container1{
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+#section6 .container1>div>h1 {
+    width: 320px;
+    height: 63px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 0;
+    margin-left: 0%;
+}
+#section6 .container1>div>h2{
+    width: 320px;
+}
+
+#section6 .container1>div>img {
+    width: 320px;
+    height: 186px;
+}
+
+#section12 .container>div h2 {
+    width: 320px;
+    height: 75px;
+    padding-left: 0%;
+   
+}
+#section12 .container>div h1 {
+    width: 320px;
+    height: 75px;
+    padding-left: 0%;
+   
+}
+#section12 .container>div img {
+
+    padding-left: 0%;
+   
+}
