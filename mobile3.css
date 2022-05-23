@@ -26,7 +26,7 @@
              display: block;
              position:fixed;
              top: 10px;
-             left:92vw;
+             left:90vw;
              z-index: 2;
              cursor: pointer;
              width: 60px;
@@ -37,7 +37,7 @@
          #section1 .menu-wrap .hamburger{
              position: fixed;
              top: 10px;
-             left: 92vw;
+             left: 90vw;
              z-index: 1;
              width: 30px;
              height: 30px;
@@ -109,7 +109,7 @@
              position: fixed;
              top: 0;
              left: 0;
-             width: 100vw;
+             width: 55%;
              height: 100%;
              visibility: visible;
              overflow: hidden;
@@ -158,30 +158,23 @@
      position: relative;
      left: 30px;
      top: 70px;
-     width:  90vw;
+     width:  300px;
      height: 460px;
-     text-align: center
        
  }
  
- #section1 .hire h1 {
-     text-align: center ;
+ #section1 .hire h1{
     font: Open Sans;
     font-size: 20px; 
     line-height: 40px;
  }
-
- #section1 .hire h2{
-     text-align: center;
- }
  
  #section1 .bottom{
-     display: flex;
-     flex-direction: column;
-     width: 100%;
-     justify-content: center;
-     align-items: center;
-    
+     display: block;
+     float: left;
+     width: 300px;
+     position: relative;
+     left: 120px;
  }
  
  #section1 .bottom p{
@@ -196,7 +189,6 @@
  /* section 3 */
  #section3{
      height: 2500px;
-     width: 768px;
      
  }
  
@@ -204,15 +196,15 @@
      position: relative;
      top: 91.51px;
      left: 0px;
-     width: 100%;
-     height: 50px;
+     width: 300px;
+     height: 170px;
  
  }
  
  #section3 h1{
-     width: 100%;
+     width: 300px;
      margin-right: 100px;
-     text-align: center;
+     text-align: left;
      font: normal normal 20px Open Sans;
      letter-spacing: 0px;
      color: #201D1D;
@@ -221,42 +213,30 @@
  }
  
  #section3 h2{
-     width: 768px;
+     width: 300px;
      height: 300px;
-     text-align: center;
  }
  
  #section3 .container-1{
-     width: 768px;
      display: flex;
      flex-direction: column;
      height: 1000px;
-     justify-content: center;
-     align-items: center;
-     
-     
  }
  
- #section3 .container-1>div h1 {
-    text-align: left;
- }
- #section3 .container-1>div h2 {
-    text-align: left;
- }
  #section3 .container-1>div{
      padding-left: 0%;
-     text-align: left;
+ 
      background-color: rgb(255, 255, 255);
      left: 0;
      top: 0;
      width: 350px;
      height: 700px; 
+    
  }
  
  /* section4 */
  #section4{
-     width: 768px;
-     height: 400px;
+     height: 600px;
      background-image: none;
      background-color:#26DFAD ;
  }
@@ -265,7 +245,7 @@
      margin-top: 0%;
      margin-left: 1%;
      padding-left: 0%;
-     width: 90%;
+     width: 300px;
      text-align: left;
  } 
  
@@ -276,11 +256,6 @@
      text-align: left;
  }
  /* sectin 5 */
-
-#section5 {
-    width: 768px;
-}
-
  #section5>div{
      position: relative;
      top:10em;
@@ -288,36 +263,30 @@
  }
  
  #section5 h2{
-  width: 90%;
+  width: 300px;
   
  }
  /* section6 */
-
-
  #section6{
-     width: 768px;
-     height: 3500px;
+     height: 3700px;
  }
-
+ 
  #section6>div{
-     width: 768px;
-     text-align: center;
-     left: 50vh;
+     
+     width: 300px;
+     margin-left: 10px;
+     text-align: left;
  }
-
-
  
  #section6 .container1 {
-     width: 768px;
-     display: flex;
-     flex-direction: column;
+     display: block;
      margin: 0px;
      text-align: left;
-     justify-content: center;
-     justify-items: center;
+     justify-content: left;
      position: relative;
      
      top: 5em;
+     width: 300px;
      height: 1600px ;
  
  } 
@@ -335,19 +304,17 @@
  /* section 7 */
  #section7{
      height: 2100px;
-     width: 768px;
  }
  
  #section7>div{
      text-align: left;
      margin-left: 10px;
-     width: 100%;
+     width: 420px;
      height: 150px;
  }
  
  #section7>div>h1{
-     width: 100%;
-     text-align: center;
+     width: 400px;
  }
  
  #section7 .container{
@@ -355,10 +322,9 @@
      flex-direction: column;
      text-align: left;
      justify-content: space-between;
-     justify-items: center;
      position: relative;
      top: 9em;
-     width: 768px;
+   
      height: 578px ;
      margin-left: 0;
  }
@@ -370,7 +336,7 @@
      margin: 10px;
      padding-top: 34px;
      position: relative;
-     left: 25vw;
+     left: 0;
      
  }
  
@@ -398,8 +364,8 @@
  
  /* section 8 */
  #section8{
-     height: 400px;
-     width: 768px;
+     height: 500px;
+     
      background-color: #26DFAD;
      background-image: none;
      opacity: 1;
@@ -407,70 +373,64 @@
  }
  
  #section8>div{
-     width: 768px;
+     width: 390px;
      height: 100px;
-     margin-left: 0px;
+     margin-left: 10px;
      padding-top:75px ;
-     text-align: center;
+     text-align: left;
  }
  
  #section8>div h1{
-     width: 100%;
+     width: 330px;
  }
- #section8>div{
-     width: 768px;
-     align-items: center;
- }
+ 
  #section8>div button{
-     width: 310px; 
-     position: relative;
-     
-
+     width: 310px; ;
  }
  
  /* section 9 */
  
  #section9{
      margin-top: 100px;
-     width: 768px;
+     
      height: 5900px;
  }
  
  #section9 .top{
-     width: 768px;
+     width: 400px;
      margin: 0;
-     height: 250px;
+     height: 400px;
      text-align: left;
     
  }
  
  #section9 .top h1{
-     width: 768px;
-     height: 105px;
+     width: 320px;
+     height: 145px;
  }
  
  #section9 .LR{
      
-     justify-content: center;
+     justify-content: left;
      flex-direction: column;
  }
  #section9 .RL{
      
-     justify-content: center;
+     justify-content: left;
      flex-direction: column;
  }
  
  #section9 .LR .text{
-     width: 500px;
+     width: 300px;
  }
  #section9 .LR .text h2{
-     width: 500px;
+     width: 300px;
  }
  #section9 .RL .text{
-     width: 500px;
+     width: 300px;
  }
  #section9 .RL .text h2{
-     width: 500px;
+     width: 300px;
  }
  
  #section9 .threeimg .RL .image img {
@@ -496,7 +456,7 @@
  }
  
  #section9 .threeimg .RL .text {
-     width: 500px;
+     width: 300px;
      height: 282px;
      float: left;
      position: relative;
@@ -505,23 +465,22 @@
  }
  
  #section9 .threeimg .RL .text h1 {
-     width: 500px;
+     width: 357px;
      padding-left: 0px;
  }
  #section9 .threeimg .RL .text h2 {
-     width: 500px;
+     width: 357px;
      padding-left: 0px;
  }
  /* section10 */
  
  #section10 {
      height: 2700px;
-     width: 768px;
  }
  
  #section10 .first {
-     width: 500px;
-     height: 200px;
+     width: 361px;
+     height: 300px;
      text-align: left;
      margin-left: 0;
  }
@@ -530,12 +489,12 @@
      font-weight: bold;
      font-size: 34px;
      padding: 0%;
-     width: 500px;
-     height: 200px;
+     width: 350px;
+     height: 260px;
  }
  
  #section10 .first h2{
-     width: 500px;
+     width: 330px;
      height: 200px;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      font-size: 18px;
@@ -556,7 +515,7 @@
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      font-weight: 100;
      font-size: 18px;
-     width: 530px;
+     width: 330px;
      letter-spacing: 0.09px;
  }
  
@@ -571,7 +530,7 @@
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      font-weight: lighter;
      font-size: 18px;
-     width: 530px;
+     width: 330px;
      letter-spacing: 0.09px;
  }
  
@@ -583,31 +542,29 @@
  #section11{
      
      height: 3000px;
-     width: 768px;
  }
  
  #section11 div>div{
      position: relative;
      left: 0px;
-     width: 700px;
+     width: 500px;
      height: 200px;
  }
  
  #section11 h2{
-     width: 720px;
+     width: 320px;
      height: 300px;
  }
  
  #section11 .container-1{
      display: block;
      height: 1100px;
-     width: 768px;
  }
  
  #section11 .container-1>div {
      padding-left: 0%;
      background-color: rgb(255, 255, 255);
-     left: 25vw;
+     left: 0;
      top: 0;
      width: 331px;
      height: 332px;
@@ -617,33 +574,33 @@
  }
  
  #section11 .container-1>div h1{
-     padding-left: 10px;
+     padding-left: 0;
  }
  #section11 .container-1>div h2{
-     padding-left: 10px;
+     padding-left: 0;
  }
  #section11 .container-1>div img{
-     padding-left: 10px;
+     padding-left: 0;
  }
  
  /* section12 */
  
  #section12{
-     width: 768px ;
+    
      margin-top: 70px;
  
  }
  
  #section12 .heading{
-     width: 700px;
+     width: 300px;
      margin-left: 10px;
      text-align: left;
-     height:210px ;
+     height:200px ;
  }
  
  #section12 .heading h1{
-     width: 700px;
-     height: 130px;
+     width: 300px;
+     height: 300px;
  }
  
  #section12 .container{
@@ -658,8 +615,6 @@
  }
  
  #section12 .container>div{
-     position: relative;
-     left: 25vw;
      width:381px ;
      background-color: #fff;
      border-radius:10px ;
